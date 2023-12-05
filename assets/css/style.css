@@ -92,7 +92,7 @@ img{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(#ffffff, #9ea6b4, #7498a7);    
+    background: linear-gradient(#ffffff, #e1f3fa, #a3bec9, #7498a7);    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -122,16 +122,16 @@ img{
     position: relative;
 }
 .slider_box .slider_title{
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     font-weight: 900;
-    color: #51545b;
+    color: #495572;
     line-height: 110%;
     margin-bottom: 0.4rem;
 }
 .slider_box .slider_text{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
-    color: #51545b;
+    color: #495572;
     line-height: 120%;
 }
 .body_main .btns{
@@ -146,7 +146,7 @@ img{
     font-size: 1rem;
     font-weight: 700;
     color: #ffffff;
-    background: #51545b;
+    background: #495572;
     padding: .6rem 2rem;
     border-radius: .4rem;
     margin: 0 .8rem;
