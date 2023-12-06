@@ -39,7 +39,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: onloadbg 2s .4s infinite;
+    animation: onloadbg 2s 2s infinite;
     transition: all .5s;
 }
 @keyframes onloadbg {
@@ -53,13 +53,13 @@ img{
         background-size: 200%;
     }
     60%{
-        background-size: 250%;
-    }
-    80%{
         background-size: 300%;
     }
+    80%{
+        background-size: 200%;
+    }
     100%{
-        background-size: 400%;
+        background-size: 100%;
     }
 }
 .onLoadNone{
